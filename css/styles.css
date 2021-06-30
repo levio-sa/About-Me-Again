@@ -1,0 +1,94 @@
+body {
+	position: relative;
+}
+
+.navbar-custom {
+	background: transparent;
+	/* background-color: #3D3931; */
+}
+
+.proj-cont{
+    padding-top: 20%;
+    width: 50%;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.proj-title {
+    color: #B97D10;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.proj-desc {
+    color: #AA0505;
+    font-family: 'Merriweather', serif;
+}
+
+.hobby {
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.hob-head {
+    padding-top: 20%;
+    color: white;
+}
+
+.hob-point {
+    color: yellow;
+}
+
+.conhead{
+    padding-top: 20%;
+}
+
+#contact {
+    padding-left: 5%;
+}
+
+#about {
+	text-align: center;
+}
+
+#edu-head {
+    padding-top: 10%;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: black;
+    font-weight: 900;
+}
+
+#home {
+    text-align: center;
+}
+
+#intro {
+    padding-top: 20%;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: black;
+    font-weight: 900;
+}
+
+#proj {
+    padding-top: 10%;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: black;
+    font-weight: 900;
+}
+
+#subtitle {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	color: #E8F6EF;
+}
+
+#title {
+	padding-top: 15%;
+	font-family: 'Great Vibes', cursive;
+	font-size: 100px;
+	color: white;
+	font-weight: 900;
+}
+

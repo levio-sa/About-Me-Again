@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sarthak's Page</title>
+
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <nav
+      class="navbar navbar-custom fixed-top navbar-expand-md navbar-dark"
+      id="navbar"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">S<span>S</span></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#home"
+                id="s1"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about" id="s2">About Me</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" id="s3">Contact</a>
+            </li>
+
+            <span class="navbar-text">Follow</span>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="home"
+      class="s1 bg-image"
+      style="
+        background-image: url('images/specs.jpg');
+        background-position: center center;
+        background-attachment: fixed;
+        background-color: black;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+      "
+    >
+      <h1 id="title">I'm Sarthak</h1>
+      <h3 id="subtitle">Welcome to my site.</h3>
+    </section>
+
+    <section id="about" class="s2">
+      <div
+        class="bg-image"
+        style="
+          background-image: url('images/ball.jpg');
+          background-position: center center;
+          background-attachment: fixed;
+          background-color: black;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100vh;
+        "
+      >
+        <h3 id="intro">I am a third year B.Tech, CSE student at IIT Delhi.</h3>
+      </div>
+      
+      <div
+        class="bg-image"
+        style="
+          background-image: url('images/edu.jpg');
+          background-position: center center;
+          background-attachment: fixed;
+          background-color: black;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100vh;
+        "
+      >
+        
+      <h3 id="edu-head">Education</h3>
+        <table class="table">
+          <tr>
+            <td>IIT Delhi</td>
+            <td>2019-Present</td>
+            <td>9.701 CGPA</td>
+          </tr>
+          <tr>
+            <td>BGSIPS XII</td>
+            <td>2019</td>
+            <td>96.2%</td>
+          </tr>
+          <tr>
+            <td>BSIPS X</td>
+            <td>2017</td>
+            <td>10 CGPA</td>
+          </tr>
+        </table>
+      </div>
+
+      <div
+        class="bg-image"
+        style="
+          background-image: url('images/proj.jpg');
+          background-position: center center;
+          background-attachment: fixed;
+          background-color: black;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 100vh;
+        "
+      >
+      <div class="proj-cont">
+      <h3 id="proj">Projects</h3>
+      <ul>
+        <li class="proj-title">
+          Regular Path Queries Based on Exemplars.
+          <ul>
+            <li class="proj-desc">
+              User provides a source-destination pair, all paths between which
+              characterise the paths of interest.
+            </li>
+            <li class="proj-desc">Biermann-Feldman algorithm is used to infer the regex.</li>
+            <li class="proj-desc">
+              Using scale-free and homophily properties of graphs, combined with
+              iterative sampling, we are able to produce destination nodes with
+              greater than 90% accuracy and within half the time compared to
+              baseline approaches.
+            </li>
+          </ul>
+        </li>
+        <li class="proj-title">
+          Traffic Density Calculator
+          <ul>
+            <li class="proj-desc">
+              OpenCV Library was used to make a traffic density calculator from
+              a video feed of a major traffic junction in Delhi. Dynamic and
+              Static Density were calculated, and a variety of optimisation
+              techniques like frame skipping, resolution lowering, were carried
+              out.
+            </li>
+          </ul>
+        </li>
+      </ul>
+      </div>
+      </div>
+
+      <div
+        class="bg-image"
+        style="
+          background-image: url('images/guit1.jpg');
+          background-position: center center;
+          background-attachment: fixed;
+          background-color: black;
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 105vh;
+        "
+      >
+      <div class="hobby">
+      <h3 class = "hob-head">Hobbies</h3>
+      <ul>
+        <li class='hob-point'>
+          I have been playing guitar ever since the pandemic struck. The
+          beautiful instrument just draws you towards itself.
+        </li>
+        <li class='hob-point'>
+          I am a member of Toastmasters International Dwarka, where we meet
+          every week to develop Public Speaking skills.
+        </li>
+        <li class='hob-point'>I like to do competitive coding on Codeforces and Codechef.</li>
+      </ul>
+      </div>
+      </div>
+    </section>
+
+    <section id="contact" class="s3 bg-image"
+    style="
+      background-image: url('images/pl.jpg');
+      background-position: center center;
+      background-attachment: fixed;
+      background-color: black;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 105vh;
+    ">
+      <h3 class="conhead">Feel free to write to me!</h3>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+        <p>
+          Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales,
+          tellus donec dui, ornare erat.
+        </p>
+        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+      </div>
+    </section>
+
+    <ul class="nav justify-content-center bg-dark nav-dark">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.instagram.com/">Instagram</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/">Linkedin</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.facebook.com/">Facebook</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="https://twitter.com/">Twitter</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
+          >© 2021 Sarthak Singla.</a
+        >
+      </li>
+    </ul>
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
