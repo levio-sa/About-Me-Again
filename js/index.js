@@ -42,10 +42,10 @@ var observer = new MutationObserver(function(mutations) {
       console.log("Class attribute changed to:", attributeValue);
       console.log(attributeValue.substring(attributeValue.length-6,attributeValue.length));
       if(attributeValue.substring(attributeValue.length-6,attributeValue.length)==="active"){
-        document.querySelector("nav").classList.add("bg-dark");
+        document.querySelector("nav").classList.add("navbar-custom2");
       }
       else{
-        document.querySelector("nav").classList.remove("bg-dark");
+        document.querySelector("nav").classList.remove("navbar-custom2");
       }
     }
   });

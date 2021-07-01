@@ -1,94 +1,132 @@
+
+
+
+/* TAG_BASED */
+h1 {
+	font-family: 'Great Vibes', cursive;
+	font-size: 100px;
+	font-weight: 900;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+	font-size: 20px;
+}
+
 body {
 	position: relative;
 }
 
+td h3 {
+    font-size: 25px;
+}
+/* CLASS-BASED */
 .navbar-custom {
 	background: transparent;
-	/* background-color: #3D3931; */
 }
-
-.proj-cont{
+.navbar-custom2 {
+    background-color: #1A1A2E;
+}
+.about-intro-container {
+    text-align: center;
+}
+.about-intro {
     padding-top: 20%;
-    width: 50%;
-    text-align: left;
-    padding-left: 5%;
+	color: #16213E;
+    font-weight: bold;
 }
-
+.edu-container {
+    text-align: center;
+}
+.edu-head {
+    padding-top: 15%;
+	color: #16213E;
+}
+.table{
+    margin-top: 30px;
+    color: #0F3460;
+}
 .proj-title {
-    color: #B97D10;
+    padding-top: 50px;
+    color: #343A40;
     font-family: 'Montserrat', sans-serif;
 }
 
+.proj-heading{
+    color: #16213E;
+}
+
 .proj-desc {
-    color: #AA0505;
+    color: #0F3460;
     font-family: 'Merriweather', serif;
+    font-weight: bold;
 }
-
-.hobby {
-    width: 50%;
-    margin: 0 auto 0 auto;
+.proj-container{
+    padding-top: 10%;
+    line-height: 1.5;
+    /* text-align: left; */
 }
-
-.hob-head {
+.hobby-container {
     padding-top: 20%;
+}
+.hob-head {
     color: white;
 }
 
 .hob-point {
-    color: yellow;
+    color: #DBCBBD;
 }
 
-.conhead{
+.contact-container{
+    text-align: center;
+}
+
+.contact-heading {
     padding-top: 20%;
+    color: black;
 }
 
-#contact {
-    padding-left: 5%;
+.contact-subheading {
+    margin-top: 30px;
+    color: #3C8DAD;
 }
 
-#about {
-	text-align: center;
+.contact-para {
+    margin-top: 15px;
+    color: black;
 }
 
-#edu-head {
-    padding-top: 10%;
+.button-text {
     font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-	color: black;
-    font-weight: 900;
+    font-weight: bold;
 }
 
+.footer {
+}
+
+/* ID_BASED */
 #home {
     text-align: center;
 }
 
-#intro {
-    padding-top: 20%;
-    font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-	color: black;
-    font-weight: 900;
-}
-
-#proj {
-    padding-top: 10%;
-    font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-	color: black;
-    font-weight: 900;
-}
-
 #subtitle {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
-	color: #E8F6EF;
+	color: #CDF0EA;
 }
 
 #title {
 	padding-top: 15%;
-	font-family: 'Great Vibes', cursive;
-	font-size: 100px;
-	color: white;
-	font-weight: 900;
+    color: white;
+    font-size: 120px;
+}
+#about{
+
 }
 
+#contact {
+
+}
